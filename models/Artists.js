@@ -1,14 +1,29 @@
-/*type ArtistType = {
-    id: number,
-    name: string,
-    imageUrl: string,
-}*/
+const mongoose = require('mongoose');
 
-const artists = [{
-    id: 1,
-    name:'Oliver Heldens',
-    imageUrl: ''
-}]
+const artistSchema = mongoose.Schema({
+    artistName: {
+        type: String,
+        required: true,
+    },
+    image: {
+        type: String,
+        default: ''
+    },
+    location: {
+        type: mongoose.Types.ObjectId,
+        ref: 'Country',
+        required: true,
+    },
+    followers: {
+        type: Number,
+        default: 0,
+    },
+    about: {
+        type: String,
+        default: ''
+    }
+
+}, {timestamps: true});
 
 
-module.exports = artists;
+module.exports = mongoose.model('Artist',artistSchema);
