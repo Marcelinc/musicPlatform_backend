@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bass House",
+        "key": "basshouse"
+    },
+    {
+        "name": "Future House",
+        "key": "futurehouse"
+    },
+    {
+        "name": "House",
+        "key": "house"
+    },
+    {
+        "name": "Big Room",
+        "key": "bigroom"
+    },
+    {
+        "name": "Hardstyle",
+        "key": "hardstyle"
+    },
+    {
+        "name": "Drum & Bass",
+        "key": "drum&bass"
+    }
+]
