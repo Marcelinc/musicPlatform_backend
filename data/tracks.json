@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Drums",
+        "imgUrl": "/images/trackImages/drums.jpg",
+        "artist": ["65ea275c8865e63d5db3b6a8"],
+        "genre": ["65ec6f996f0511abf173be71"],
+        "plays": 124,
+        "publisher": "65ec718366403d0d1a7aed57",
+        "releaseDate": "2017-06-23"
+    },{
+        "name": "Nobody",
+        "imgUrl": "/images/trackImages/nobody.jpg",
+        "artist": ["65ea275c8865e63d5db3b6a9"],
+        "genre": ["65ec6f996f0511abf173be72"],
+        "plays": 7453,
+        "publisher": "65ec718366403d0d1a7aed57",
+        "releaseDate": "2016-11-25"
+    },{
+        "name": "Flamingo",
+        "imgUrl": "/images/trackImages/flamingo.jpg",
+        "artist": ["65ea275c8865e63d5db3b6aa"],
+        "genre": ["65ec6f996f0511abf173be73"],
+        "plays": 6543,
+        "publisher": "65ec91b92a5b99ce1bce719d",
+        "releaseDate": "2016-08-29"
+    },{
+        "name": "Momentum",
+        "imgUrl": "/images/trackImages/momentum.jpg",
+        "artist": ["65ea275c8865e63d5db3b6ac"],
+        "genre": ["65ec6f996f0511abf173be74"],
+        "plays": 124,
+        "publisher": "65ec718366403d0d1a7aed58",
+        "releaseDate": "2014-09-14"
+    },{
+        "name": "The Time Has Come",
+        "imgUrl": "/images/trackImages/timehascome.jpg",
+        "artist": ["65ea275c8865e63d5db3b6ad","65ec75a52a5b99ce1bce7184"],
+        "genre": ["65ec6f996f0511abf173be72"],
+        "plays": 453,
+        "publisher": "65ec718366403d0d1a7aed57",
+        "releaseDate": "2019-08-16"
+    },{
+        "name": "Take Off",
+        "imgUrl": "/images/trackImages/takeoff.jpg",
+        "artist": ["65ea275c8865e63d5db3b6a8"],
+        "genre": ["65ec6f996f0511abf173be72"],
+        "plays": 453,
+        "publisher": "65ec718366403d0d1a7aed59",
+        "releaseDate": "2019-08-16"
+    },{
+        "name": "So Fresh",
+        "imgUrl": "/images/trackImages/sofresh.jpg",
+        "artist": ["65ea275c8865e63d5db3b6a8"],
+        "genre": ["65ec6f996f0511abf173be72"],
+        "plays": 124,
+        "publisher": "65ec718366403d0d1a7aed59",
+        "releaseDate": "2019-08-16"
+    },{
+        "name": "Rat Race",
+        "imgUrl": "/images/trackImages/ratrace.jpg",
+        "artist": ["65ea275c8865e63d5db3b6a8"],
+        "genre": ["65ec6f996f0511abf173be72"],
+        "plays": 124,
+        "publisher": "65ec718366403d0d1a7aed59",
+        "releaseDate": "2019-08-16"
+    }
+]

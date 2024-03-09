@@ -22,12 +22,12 @@ const trackSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
-    publisher: [{
+    publisher: {
         type: mongoose.Types.ObjectId,
-        ref: 'Publisher'
-    }],
+        ref: 'Publisher',
+    },
     releaseDate: {
-        type: String,
+        type: Date,
         required: true
     }
 })

@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
+const { seedDB } = require('./scripts/seed');
 const dotenv = require('dotenv').config();
 
 const PORT = process.env.PORT || 4000;
@@ -10,9 +11,8 @@ const app = express();
 //Connect to DB
 connectDB();
 
-//Seeders
-//const seedCountry = require('./seeders/countrySeeder');
-//seedCountry
+//Seed database
+seedDB();
 
 //Middlewares
 app.use(cors());

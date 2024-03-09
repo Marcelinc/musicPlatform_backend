@@ -21,7 +21,15 @@ const artistSchema = mongoose.Schema({
     about: {
         type: String,
         default: ''
-    }
+    },
+    tracks: [{
+        type: mongoose.Types.ObjectId,
+        ref: 'Track',
+    }],
+    playlists: [{
+        type: mongoose.Types.ObjectId,
+        ref: 'Playlist',
+    }]
 
 }, {timestamps: true});
 
