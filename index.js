@@ -22,5 +22,6 @@ app.use(express.urlencoded({extended: false}));
 
 //Routes
 app.use('/api',require('./routes/artistRoutes'));
+app.use('/api',require('./routes/trackRoutes'));
 
 app.listen(PORT,() => console.log('Server is up and running on port ' + PORT));
