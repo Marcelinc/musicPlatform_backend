@@ -19,6 +19,9 @@ const trackSeeder = require('../seeders/trackSeeder');
 // @Monthly Listeners
 const seedMonthlyListeners = require('../seeders/monthlyListenersSeeder');
 
+// @Track plays in month [TrackListener]
+const seedTrackListener = require('../seeders/trackListenerSeeder');
+
 //Execute seeders
 const seedDB = () => {
     //seedCountry();
@@ -27,6 +30,7 @@ const seedDB = () => {
     //publisherSeeder();
     //trackSeeder();
     //seedMonthlyListeners();
+    //seedTrackListener();
 }
 
 module.exports = {seedDB};
